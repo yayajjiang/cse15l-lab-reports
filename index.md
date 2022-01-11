@@ -1,1 +1,1 @@
-This is for the 15l class in winter 2022 at UCSD.
+This public Github repository is for the 15l class in winter 2022 at UCSD.
