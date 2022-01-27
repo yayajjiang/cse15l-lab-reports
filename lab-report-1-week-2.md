@@ -42,6 +42,7 @@ By Using `ssh-keygen` command to set the SSH key, we will get private key and pu
 ## Optimizing Remote Running
 
 keystroke： Press arrow key to go to previous commands
+
 Use tab to auto fill in.
 
 "" - run it on the remote server and then exit
