@@ -8,6 +8,8 @@
 
 [Lab report 3: Streamline `ssh` Configuration](lab-report-3-week-6.md) 
 
+[Lab report 4: Markdown Tests](lab-report-4-week-8.md) 
+
 ## UCSD life
 ![IMG_1601](https://user-images.githubusercontent.com/60903767/149262676-02841c21-51c5-4f16-a221-7c3dd835f29e.JPG)
 
