@@ -32,11 +32,18 @@ The other one gets:
 
 
 ## Feedback
+1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+
 For snippet1:
-Yes, we can trim all the blank spaces inside the parenthesis, and then we can get the link without blank. It will be easy to implement this function within ten lines of code.
+Yes, it is easy. Although there are backticks` inside the brackets. We are only looking at characters inside the parentheses and turn whatever is inside to the links. We can check if there are not two backticks in the brackets, then the link is not valid, otherwise, ignore the effects that backticks bring.
+
+2. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
 
 For snippet2:
-No, because it contains a nest parenthesis. It will be fairly hard to diagnoise the second () inside a link within ten lines of code.
+No, because it contains a nested parentheses. It will be fairly hard to diagnoise the second () inside a link within ten lines of code.
+
+3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 
 For snippet3:
-Yes, it is easy. Although there are ` inside the brackets. We are only looking at characters inside the parenthesis and turn whatever inside to the links.
+Yes, we can trim all the blank spaces inside the parentheses, and then we can get the link without blank. It will be easy to implement this function within ten lines of code.
+
