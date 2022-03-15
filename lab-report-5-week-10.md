@@ -39,4 +39,4 @@ None of the output is correct, the expected output is [/foo].
 ## problems
 What is wrong with the code?
 Take my code for example, it is also printing the extra indexes which is not needed. We can get rid of that first.
-Also, it does not check the extra parenthesis. We need to fix that by checking the extra []() in the code.
+Also, it does not c heck the extra parenthesis. We need to fix that by checking the extra []() in the code.
