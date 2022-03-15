@@ -22,19 +22,18 @@ public class MarkdownParse {
             if(openParen<0 || closeParen<0){
                 break;
             }
-
             if(nextOpenBracket!=0 && markdown.charAt(nextOpenBracket-1) == '!' ){
                 currentIndex = closeParen + 1;
                 continue;
             }
             //end
             toReturn.add(markdown.substring(openParen + 1, closeParen));
-            //System.out.println(currentIndex); // 0 43
-            //System.out.println(markdown.charAt(currentIndex));
+            System.out.println(currentIndex); // 0 43
+            System.out.println(markdown.charAt(currentIndex));
             //look forward from that point instead of backward
             currentIndex = closeParen + 1;
             //
-            //System.out.println(currentIndex); // 43 76
+            System.out.println(currentIndex); // 43 76
             //charAt
             
         }
